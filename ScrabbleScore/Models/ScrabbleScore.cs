@@ -8,7 +8,7 @@ namespace Scrabble.Logic
     {
         public static double Score(string scrabbleWord)
         {
-            string scrabbleWordToScore = scrabbleWord;
+            string scrabbleWordToScore = scrabbleWord.ToLower();
             double totalScore = 0.0;
 
             for (int i = 0; i < scrabbleWordToScore.Length; i++)

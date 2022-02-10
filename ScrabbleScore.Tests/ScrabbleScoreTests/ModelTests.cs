@@ -1,9 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using Scrabble.Logic;
-using Scrabble;
-using Classy;
-using System;
 
 namespace Scrabble.Tests
 {
